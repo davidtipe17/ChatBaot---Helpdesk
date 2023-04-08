@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+         "Ey",
+         "Cómo estas",
+         "¿Hay alguien ahí?",
+         "Hola",
+         "Buen dia"
+      ],
+      "responses": [
+          "Ey :-)",
+         "Hola, gracias por visitar",
+         "Hola, ¿que puedo hacer por ti?",
+         "Hola, ¿como puedo ayudar?"
+      ]
+    },
+    {
+      "tag": "adios",
+      "patterns": ["Adiós", "Hasta luego", "Adios"],
+      "responses": [
+        "Hasta luego, gracias por visitarnos",
+         "Que tenga un lindo día",
+         "¡Adiós! Vuelve pronto."
+      ]
+    },
+    {
+      "tag": "gracias",
+      "patterns": ["Gracias", "Gracias", "Eso es útil", "¡Muchas gracias!"],
+      "responses": ["¡Feliz de ayudar!", "¡En cualquier momento!","Es un placer"]
+    },
+    {
+      "tag": "elementos",
+      "patterns": [
+        "¿Qué servicio brindas?", 
+         "¿Evalua problemas de software?"
+      ],
+      "responses": [
+        "Servicio de asistencia tecnica helpdesk",
+         "Evaluamos servicio de software y diagnostico en general"
+      ]
+    },
+    {
+      "tag": "pagos",
+      "patterns": [
+        "¿Aceptan tarjetas de crédito?",
+        "¿Aceptan MasterCard?",
+        "¿Puedo pagar con PayPal?",
+        "¿Solo pagas en efectivo?"
+      ],
+      "responses": [
+        "Aceptamos VISA, Mastercard y Paypal",
+         "Aceptamos la mayoría de las principales tarjetas de crédito y Paypal"
+      ]
+    },
+    {
+      "tag": "validación",
+      "patterns": [
+        "¿Cuánto tarda el diagnostico?",
+        "¿Cuanto tarde la validación?"
+      ],
+      "responses": [
+        "El servicio es depende del diagnostico"
+      ]
+
+    },
+    {
+      "tag": "gracioso",
+      "patterns": [
+        "¡Cuéntame un chiste!",
+        "¡Dime algo gracioso!",
+        "¿Sabes un chiste?"
+      ],
+      "responses": [
+        "¿Por qué el hipster se quemó la boca? Se bebió el café antes de que se enfriara.",
+         "¿Qué dijo el búfalo cuando su hijo se fue a la universidad? Bisonte."
+      ]
+    }
+  ]
+}
